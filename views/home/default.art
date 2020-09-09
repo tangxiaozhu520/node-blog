@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<!-- 头部框架开始 -->
+	<div class="header">
+		<div class="w1100">
+			<!-- 网站logo开始 -->
+			<h1 class="logo fl">
+				<a href="default.html"><img src="images/logo.png" alt="黑马程序员"></a>
+			</h1>
+			<!-- 网站logo结束 -->
+			<!-- 网站导航开始 -->
+			<ul class="navigation fr">
+				<li>
+					<a class="active" href="/home">首页</a>
+				</li>
+				<li>
+					<a href="/admin/login">登录</a>
+				</li>
+			</ul>
+			<!-- 网站导航结束 -->
+		</div>
+	</div>
+	<!-- 头部框架结束 -->
+	<!-- 文章列表开始 -->
+	<ul class="list w1100">
+	    {{each results.records}}
+		<li class="{{$index%2==0 ? 'fl' :'fr'}}">
+			<a href="/home/article?id={{@ $value._id}}" class="thumbnail">
+				<img src="{{$value.cover}}">
+			</a>
+			<div class="content">
+				<a class="article-title" href="/home/article?id={{@ $value._id}}">{{$value.title}}</a>
+				<div class="article-info">
+					<span class="author">{{$value.author.name}}</span>
+					<span>2020-09-10</span>
+				</div>
+				<div class="brief">
+					
+					{{@$value.content.substr(0,60)+"..." }}
+				</div>
+			</div>
+		</li>
+		{{/each}}
+
+	</ul>
+	<!-- 文章列表结束 -->
+
+	<!-- 分页开始 -->
+	<div class="page w1100">
+		<a href="/home/?page={{results.page-1}}" style="display:{{results.page>1 ? 'inline' : 'none'}}">上一页</a>
+		{{each results.display}}
+		<a href="/home/?page={{$value}}" class="{{results.page==$value? 'active' :''}}">{{$value}}</a>
+		{{/each}}
+		<a href="/home/?page={{results.page+1-0}}" style="display:{{results.page<results.pages ? 'inline' : 'none'}}">下一页</a>
+	</div>
+	<!-- 分页结束 -->
+</body>
+</html>

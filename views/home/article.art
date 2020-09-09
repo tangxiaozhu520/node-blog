@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文章详情</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+	<!-- 头部框架开始 -->
+	<div class="header">
+		<div class="w1100">
+			<!-- 网站logo开始 -->
+			<h1 class="logo fl">
+				<a href="default.html"><img src="images/logo.png" alt="黑马程序员"></a>
+			</h1>
+			<!-- 网站logo结束 -->
+			<!-- 网站导航开始 -->
+			<ul class="navigation fr">
+				<li>
+					<a href="/home/" class="{{currentIndex=="首页" ? 'active' :''}}">首页</a>
+				</li>
+				<li>
+					<a href="/admin/login" class="{{currentIndex=="登录" ? 'active' :''}}">登录</a>
+				</li>
+			</ul>
+			<!-- 网站导航结束 -->
+		</div>
+	</div>
+	<!-- 头部框架结束 -->
+	<!-- 文章框架开始 -->
+	<div class="article">
+		<div class="w1100">
+			<div class="container">
+				<div class="article-header">
+					<h3 class="article-title">{{article.title}}</h3>
+					<div class="article-info">
+						<span class="author">{{article.author.name}}</span>
+						<span>{{dateFormat(article.publishDate,"yyyy-mm-dd")}}</span>
+					</div>
+				</div>
+				<div class="article-content">
+					<img src="{{article.cover}}">
+				    {{@ article.content}}
+				</div>
+				<div class="article-comment">
+				    {{if userinfo}}
+					<h4>评论</h4>
+					<form class="comment-form" method="post" action="/home/comment">
+						<textarea class="comment" name="content"></textarea>
+						<input type="hidden" name="uid" value="{{@ userinfo._id}}">
+						<input type="hidden" name="aid" value="{{@ article._id}}">
+						<div class="items">
+							<input type="submit" value="提交">
+						</div>
+					</form>
+					{{else}}
+					<div><h2>请先登录，再进行评价</h2></div>
+					{{/if}}
+					<div class="comment-list">
+					    {{each comments}}
+						<div class="mb10">
+							<div class="article-info">
+								<span class="author" >{{$value.uid.name}}</span>
+								<span >{{dateFormat($value.time,"yyyy-mm-dd")}}</span>
+								<span>{{$value.uid.email}}</span>
+							</div>
+							<div class="comment-content">
+								{{@$value.content.replace(/<[^>]+>/g,"").substr(0,80) + "...."}}
+							</div>
+						</div>
+						{{/each}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 文章框架结束 -->
+</body>
+</html>

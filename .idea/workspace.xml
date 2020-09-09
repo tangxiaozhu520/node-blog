@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68886a89-7634-4a59-91f8-5f917b024e9b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YImllhVmaX2Ns7AoAfBurGI1wa" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/home" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="ts.external.directory.path" value="C:\software\pycharm\PyCharm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\views\home" />
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\views\admin" />
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\views" />
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\public" />
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\public\admin\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\route\admin" />
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\views\admin" />
+      <recent name="C:\Users\tang\PycharmProjects\node.js\blog\public\admin\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68886a89-7634-4a59-91f8-5f917b024e9b" name="Default Changelist" comment="" />
+      <created>1582638635656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582638635656</updated>
+      <workItem from="1582638636856" duration="1625000" />
+      <workItem from="1582640275661" duration="1795000" />
+      <workItem from="1582642093301" duration="1792000" />
+      <workItem from="1582643898947" duration="1446000" />
+      <workItem from="1582645706672" duration="862000" />
+      <workItem from="1582693978785" duration="1796000" />
+      <workItem from="1582695798340" duration="1791000" />
+      <workItem from="1582697715483" duration="1790000" />
+      <workItem from="1582700863719" duration="1772000" />
+      <workItem from="1582702654378" duration="1792000" />
+      <workItem from="1582704486642" duration="1801000" />
+      <workItem from="1582706804091" duration="1793000" />
+      <workItem from="1582708617749" duration="1792000" />
+      <workItem from="1582710426852" duration="1567000" />
+      <workItem from="1582713411425" duration="1794000" />
+      <workItem from="1582715221782" duration="1983000" />
+      <workItem from="1582717391096" duration="1834000" />
+      <workItem from="1582720089311" duration="1792000" />
+      <workItem from="1582721897324" duration="1556000" />
+      <workItem from="1582723852952" duration="1806000" />
+      <workItem from="1582725981209" duration="1792000" />
+      <workItem from="1582727796362" duration="1794000" />
+      <workItem from="1582729857530" duration="1790000" />
+      <workItem from="1582731668966" duration="1793000" />
+      <workItem from="1582733480181" duration="1660000" />
+      <workItem from="1582771648711" duration="1939000" />
+      <workItem from="1582773603420" duration="2318000" />
+      <workItem from="1582777018600" duration="2130000" />
+      <workItem from="1582779474294" duration="1876000" />
+      <workItem from="1582781365948" duration="816000" />
+      <workItem from="1582782907048" duration="1329000" />
+      <workItem from="1582784719483" duration="1771000" />
+      <workItem from="1582786531708" duration="1148000" />
+      <workItem from="1582789543598" duration="1793000" />
+      <workItem from="1582791355328" duration="819000" />
+      <workItem from="1582794613208" duration="622000" />
+      <workItem from="1582803455153" duration="1467000" />
+      <workItem from="1582805263581" duration="600000" />
+      <workItem from="1582809955626" duration="93000" />
+      <workItem from="1582869962181" duration="860000" />
+      <workItem from="1582871770573" duration="1192000" />
+      <workItem from="1582875179905" duration="753000" />
+      <workItem from="1582878687728" duration="600000" />
+      <workItem from="1582880853569" duration="602000" />
+      <workItem from="1582883905648" duration="599000" />
+      <workItem from="1582958406837" duration="1791000" />
+      <workItem from="1582960214874" duration="1794000" />
+      <workItem from="1582962037517" duration="1086000" />
+      <workItem from="1582963942341" duration="1830000" />
+      <workItem from="1582965832503" duration="1734000" />
+      <workItem from="1582967768498" duration="1792000" />
+      <workItem from="1582969576983" duration="1792000" />
+      <workItem from="1582971439920" duration="1047000" />
+      <workItem from="1582974938870" duration="1794000" />
+      <workItem from="1582976746861" duration="1857000" />
+      <workItem from="1582978644909" duration="1793000" />
+      <workItem from="1582980457224" duration="1793000" />
+      <workItem from="1582982265980" duration="1858000" />
+      <workItem from="1582984151083" duration="1332000" />
+      <workItem from="1582986156142" duration="1807000" />
+      <workItem from="1582987983410" duration="1792000" />
+      <workItem from="1582989798582" duration="1848000" />
+      <workItem from="1582991661408" duration="709000" />
+      <workItem from="1583039900875" duration="1789000" />
+      <workItem from="1583041708123" duration="1793000" />
+      <workItem from="1583043550212" duration="1793000" />
+      <workItem from="1583045357224" duration="1794000" />
+      <workItem from="1583047167126" duration="1291000" />
+      <workItem from="1583048973412" duration="1650000" />
+      <workItem from="1583159414740" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
