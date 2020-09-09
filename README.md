@@ -4,17 +4,17 @@
 此项目是一个node.js加express框架的项目，主要有登录页面、管理员后台管理页面、非管理员可浏览页面。
 admin:
 
-![1599642111159](C:\Users\tang\AppData\Roaming\Typora\typora-user-images\1599642111159.png)
+![1599642111159](https://github.com/tangxiaozhu520/node-blog/blob/master/IMG/login.png)
 
-![1599642140450](C:\Users\tang\AppData\Roaming\Typora\typora-user-images\1599642140450.png)
+![1599642140450](https://github.com/tangxiaozhu520/node-blog/blob/master/IMG/user.png)
 
-![1599642158614](C:\Users\tang\AppData\Roaming\Typora\typora-user-images\1599642158614.png)
+![1599642158614](https://github.com/tangxiaozhu520/node-blog/blob/master/IMG/add_user.png)
 
-![1599642206726](C:\Users\tang\AppData\Roaming\Typora\typora-user-images\1599642206726.png)
+![1599642206726](https://github.com/tangxiaozhu520/node-blog/blob/master/IMG/article_modify.png)
 
-![1599642692741](C:\Users\tang\AppData\Roaming\Typora\typora-user-images\1599642692741.png)
+![1599642692741](https://github.com/tangxiaozhu520/node-blog/blob/master/IMG/home.png)
 
-![1599642758986](C:\Users\tang\AppData\Roaming\Typora\typora-user-images\1599642758986.png)
+![1599642758986](https://github.com/tangxiaozhu520/node-blog/blob/master/IMG/artile_detail.png)
 
 
 
